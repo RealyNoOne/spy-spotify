@@ -11,20 +11,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "EspionSpotify.Setup", "EspionSpotifySetup\EspionSpotify.Setup.wixproj", "{5F5E40E4-4C50-439A-BD45-E86E6814629A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A02571B8-7CE5-4865-84F0-87613F895204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A02571B8-7CE5-4865-84F0-87613F895204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02571B8-7CE5-4865-84F0-87613F895204}.Debug|x86.ActiveCfg = Debug|x86
+		{A02571B8-7CE5-4865-84F0-87613F895204}.Debug|x86.Build.0 = Debug|x86
 		{A02571B8-7CE5-4865-84F0-87613F895204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A02571B8-7CE5-4865-84F0-87613F895204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02571B8-7CE5-4865-84F0-87613F895204}.Release|x86.ActiveCfg = Release|x86
+		{A02571B8-7CE5-4865-84F0-87613F895204}.Release|x86.Build.0 = Release|x86
 		{9A936C14-6665-48A8-A79D-14347F50E215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A936C14-6665-48A8-A79D-14347F50E215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A936C14-6665-48A8-A79D-14347F50E215}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9A936C14-6665-48A8-A79D-14347F50E215}.Debug|x86.Build.0 = Debug|Any CPU
 		{9A936C14-6665-48A8-A79D-14347F50E215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A936C14-6665-48A8-A79D-14347F50E215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A936C14-6665-48A8-A79D-14347F50E215}.Release|x86.ActiveCfg = Release|Any CPU
+		{9A936C14-6665-48A8-A79D-14347F50E215}.Release|x86.Build.0 = Release|Any CPU
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Debug|x86.ActiveCfg = Debug|x86
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Debug|x86.Build.0 = Debug|x86
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Release|Any CPU.ActiveCfg = Release|x86
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Release|x86.ActiveCfg = Release|x86
+		{5F5E40E4-4C50-439A-BD45-E86E6814629A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

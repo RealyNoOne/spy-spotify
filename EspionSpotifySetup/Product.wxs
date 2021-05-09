@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="EspionSpotifySetup" Language="1033" Version="1.0.0.0" Manufacturer="jwallet@github" UpgradeCode="fe28e241-a1da-4e12-bce2-03dcfaf49625">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="EspionSpotifySetup" Level="1">
+			<ComponentGroupRef Id="ProductComponentGroup" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="EspionSpotify" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+</Wix>

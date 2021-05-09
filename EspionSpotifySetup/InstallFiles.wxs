@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Directory Id="dir42118B94695D63E37FC8B08295C74D47" Name="Drivers" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ProductComponentGroup">
+            <Component Id="cmpEC4DB6288585F4295C83D26582A1AD61" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil93E3E49151D61808CE5C4EB5120C043D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\DotNetZip.dll" />
+            </Component>
+            <Component Id="cmp18881BBC1AD554A76E375AE367198456" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8BB73B8904AB0D84849A77B25476DDC7" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\DotNetZip.xml" />
+            </Component>
+            <Component Id="cmpA5B453882BAA5F32241F9A88F68F2FA1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filF7C1C5FC29CFA19AF01795840E6D4EA9" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\ExceptionReporter.NET.dll" />
+            </Component>
+            <Component Id="cmpB1FE2AB6BB454543739F924EF9E0208E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filDEDDC18D04B5367058B7D3F85002612B" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\ExceptionReporter.NET.xml" />
+            </Component>
+            <Component Id="cmp60E082472E58BC607AA753055C06FC2D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil1CB6F926572157C0FE3FAB0490C4365F" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Handlebars.dll" />
+            </Component>
+            <Component Id="cmp3DD3152EED5A6716499BF3C5FDD1EF44" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil670C7F69E4E80E6838B69559373C88A0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\libmp3lame.32.dll" />
+            </Component>
+            <Component Id="cmp531FBB476C79320DB31F1D6453684DD6" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil2CCC7E7FF92DD7A594F0017EFEBBD800" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\libmp3lame.64.dll" />
+            </Component>
+            <Component Id="cmpB42B4821995E8DAF257F685433ACA711" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil35ED4DC2FC911E215342A7C2A9E34C05" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\MetroFramework.Design.dll" />
+            </Component>
+            <Component Id="cmp2786D8504A5B61A9A9A92BFBB0485CC1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC046F7CF824F1C21C1584F722EBF938B" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\MetroFramework.dll" />
+            </Component>
+            <Component Id="cmp1900B31D3ECA5B6DCD54767BA1089B83" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil3A47768B6EC1771D37338A3CAE2532A7" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\MetroFramework.Fonts.dll" />
+            </Component>
+            <Component Id="cmpC089979D7EDD0520871FCF59E4512F6A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil69885EF287CDAEE15C09BE435AEC1160" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Microsoft.Win32.Primitives.dll" />
+            </Component>
+            <Component Id="cmp979BB5B2297816EF2D91624FE967267D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil90ABFE40E18B3705156C760B3E7FFC87" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\NAudio.dll" />
+            </Component>
+            <Component Id="cmp4FD95C1149C96388F38107FD094B1BC5" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil531CB5712BD01485A909FF0C54F27E6E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\NAudio.Lame.dll" />
+            </Component>
+            <Component Id="cmp4004490F7D3228A4968D3C89FB059E59" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE90CED26A84FB5CD85C0442369868EF2" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\NAudio.Lame.pdb" />
+            </Component>
+            <Component Id="cmp28F03CA49975F5843A9D208B68F7BAC1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7065A3E0324229DDAD44DF94474BF17A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\NAudio.xml" />
+            </Component>
+            <Component Id="cmp2D22C362F8F0B3B68D8A335DB9874738" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil0C7258C62EED04D203F333E1383578C2" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\netstandard.dll" />
+            </Component>
+            <Component Id="cmpBC4FC00A26E7D32479D42D3411317FC5" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil90A8AAD9FC612906D405476D61CEA3F4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Newtonsoft.Json.dll" />
+            </Component>
+            <Component Id="cmp125C379E185231EFADA4CB4301BD0A9E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil3A2F44A7730E98D18E0948B3261DFABD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Newtonsoft.Json.xml" />
+            </Component>
+            <Component Id="cmpF8776487E6911968C5EFE384E55541BA" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil5D574F8EC9E73E310C27B87107F50061" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\PCLWebUtility.dll" />
+            </Component>
+            <Component Id="cmp49A7D262D861803E9BE09B4E1195DCF9" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil357EF47A186EFDD34D38781520A9CE51" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SimpleMapi.dll" />
+            </Component>
+            <Component Id="cmp89868279F1DB7DC7D9AF0145FFC36336" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil2E15619E42BA16517C2A1250A20D3085" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SimpleMapi.xml" />
+            </Component>
+            <Component Id="cmpCD579396AED058EABE99704AF9472D0C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filDBDABCEDD331721D28B6B14D796A16AE" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SpotifyAPI.Web.Auth.dll" />
+            </Component>
+            <Component Id="cmpFAD36528764E63EB696327465C96F859" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil6443D6AA79A48BB0112A9AAFAE6D0EF4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SpotifyAPI.Web.Auth.xml" />
+            </Component>
+            <Component Id="cmpCE34D7B22EEA0EEB83047185AF83DC4A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8235333D00660B972B4B4A7589BB023B" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SpotifyAPI.Web.dll" />
+            </Component>
+            <Component Id="cmp4099E36CC1EBAD69D97DB35BEFB69636" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8339004C4A611477186698C789866F47" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\SpotifyAPI.Web.xml" />
+            </Component>
+            <Component Id="cmp50A5E376CE61CFF4C4BD85501465C4C6" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil0B498D9033CF54282F112E4535FD89BD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Spytify.exe" />
+            </Component>
+            <Component Id="cmp5BF82A49794EF8CA80B3603A0E77FC35" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filAFD0CC30CB2E6DD52C314025EFBB3EF7" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.AppContext.dll" />
+            </Component>
+            <Component Id="cmp602E8F2B93FE6578A846F762EC68A1D9" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8A8EC4001DD8F96250E301ED6A1E3783" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Collections.Concurrent.dll" />
+            </Component>
+            <Component Id="cmp3DA1940FB9C385E5772FD6B27D952566" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil61FB0EF6F8353D5D25E080C4B6E602C0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Collections.dll" />
+            </Component>
+            <Component Id="cmp1340CAF41213E899D78462CF580BF2AD" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE68AB55348C2F39BA40CC24DA31D4211" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Collections.NonGeneric.dll" />
+            </Component>
+            <Component Id="cmp4CA8A8377EC5F30AF1C8BF2ABE2B916B" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filF574BF00EFD9442D9E5911559F8D7CB3" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Collections.Specialized.dll" />
+            </Component>
+            <Component Id="cmp912EE5CA7F0C138422055A3D0C240C38" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8084AE81753074831DC96EB13423F40D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ComponentModel.dll" />
+            </Component>
+            <Component Id="cmp9DD02050EE6C7C34C1B0689DE491114C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil1E5C558F899E13FD4A03E9ACF14B5065" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ComponentModel.EventBasedAsync.dll" />
+            </Component>
+            <Component Id="cmp0E07B6458918A72AFC17E557DDF86BE9" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil757C2B539CEF8E96C5DAF1634B560D0F" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ComponentModel.Primitives.dll" />
+            </Component>
+            <Component Id="cmp9CD588F7BA24625E3D5679886E12AD98" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil057857F4AB9C19007F7BB13F6DAB4F8E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ComponentModel.TypeConverter.dll" />
+            </Component>
+            <Component Id="cmp1A01EFD00F1DAF10CE06F8196357F24C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil08A6ABF18A6A31D6C7924DD13873F17E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Console.dll" />
+            </Component>
+            <Component Id="cmp5C82A05FA23F935F2AF47CD1A8E11EF5" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE0AB56016BACB84E3B4D8920E3BC3B88" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Data.Common.dll" />
+            </Component>
+            <Component Id="cmp18D7BFB3BE8790A76D7469ACDB6FF184" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filF5EC28734B29A9D0741ED65730786D83" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.Contracts.dll" />
+            </Component>
+            <Component Id="cmp16EF400B22B4D8375CD56E7168F49BBB" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC5A135B91631EDD63E03635FE5DB1528" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.Debug.dll" />
+            </Component>
+            <Component Id="cmp7E39F1A13DA5F3678F3102B85106204A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE669E7EEC097516D4E9BE57F87820A6F" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.FileVersionInfo.dll" />
+            </Component>
+            <Component Id="cmpD23621427F9427EADECDFB75824E8F4E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filA2202346FF26F0ADE22443C43E9EA3EA" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.Process.dll" />
+            </Component>
+            <Component Id="cmpB3E27F13800A8FF984F132723F98897C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filDBF3A4F1AEA58FEDB0007DD546ADD630" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.StackTrace.dll" />
+            </Component>
+            <Component Id="cmp36E12B3A84F72D19A05AB3898848297D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil21EE5D64D21C91238861B7873377CB07" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.TextWriterTraceListener.dll" />
+            </Component>
+            <Component Id="cmp167D1C5C6A974604FBBFEDD39E2FDF84" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil589087C30E15FFAD786A80C79F228C31" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.Tools.dll" />
+            </Component>
+            <Component Id="cmpBDFBFA929E7957E9AB4B89B1C6BBCD7A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil51DF554AB19C81BD826675A139E6342C" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.TraceSource.dll" />
+            </Component>
+            <Component Id="cmp804ACD73DC5E4AF51ACF260299491EAE" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE457FA9EC2AE98FDC3C82D976418C363" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Diagnostics.Tracing.dll" />
+            </Component>
+            <Component Id="cmp08477E3E9CCCB3373C6D6B557560F00D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filB3F994E499D6B2658F4935DB290BBD4C" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Drawing.Primitives.dll" />
+            </Component>
+            <Component Id="cmpA142100C3F0BB7810ABB24189CCE1D0D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC724FD793DE9BFA79CD7FB6C9ADD74B0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Dynamic.Runtime.dll" />
+            </Component>
+            <Component Id="cmpF2CFC77F0487C42E6C597124620175D0" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filB1DA3C706CDD3EB9DD5FAEE10E17A1EC" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Globalization.Calendars.dll" />
+            </Component>
+            <Component Id="cmp38992D30F99BD043E10383498A731822" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil302011DAA4997DB8B141168A984D0E89" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Globalization.dll" />
+            </Component>
+            <Component Id="cmp2ECBD4EE80FB56B111EAB04A7922F75E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filBCE4D84B0CA5B233C74110483CAD4D62" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Globalization.Extensions.dll" />
+            </Component>
+            <Component Id="cmp7C3F2E3F59683A923C60FABD5737CB9C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC0D291B2EACEC5989E66270F7125C729" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.Abstractions.dll" />
+            </Component>
+            <Component Id="cmpC8D343DED6ECA227B78780388C7AA77C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8C21BB6ED9A67550B3F3EE8EF35E5A89" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.Compression.dll" />
+            </Component>
+            <Component Id="cmpD40621D43FCB57C24FE91D5292CDCA60" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil58D577100F63265F0448602DFD48190C" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.Compression.ZipFile.dll" />
+            </Component>
+            <Component Id="cmp06E205989506C503C7B11F6FE4B449C6" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil1585A04883FF89B289FC2454E8EDC783" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.dll" />
+            </Component>
+            <Component Id="cmp2BF489548413875B5E6C82837FCD954F" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filB910A291C5575D86F028725A2C33BF2D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.FileSystem.dll" />
+            </Component>
+            <Component Id="cmp1AB9ED2F24CD7F4C14BBC93CA838C6B0" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil574A395F5B89705022FDCE55CD01B148" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.FileSystem.DriveInfo.dll" />
+            </Component>
+            <Component Id="cmpC96839737F0D0575D352C1AE13A73E26" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil02F9A4228ADE0C77AF34898B47FD1723" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.FileSystem.Primitives.dll" />
+            </Component>
+            <Component Id="cmp43533F1C6D869598C6A682154C94696E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filBF4695E38CC21BF49BBCA04E77D36710" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.FileSystem.Watcher.dll" />
+            </Component>
+            <Component Id="cmpBEA123016451982E36F3B409E9D6426F" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil4018AFAC307CEA6BC7FCB7A5B8BCA075" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.IsolatedStorage.dll" />
+            </Component>
+            <Component Id="cmp27E36B7C8DB5461A9579366D20E5DD16" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7F43DE255F0B70BD8014CC9F0611E6A9" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.MemoryMappedFiles.dll" />
+            </Component>
+            <Component Id="cmpB23C66A8B8F46E3F568C19DFB6A6E1A4" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8EAA03164AF160196E835AAF613219D0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.Pipes.dll" />
+            </Component>
+            <Component Id="cmp5338A7F671CC8A6B5D8355578A8A889A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filA25C390E7FAA5E8406CA4A02BBBCC33A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.IO.UnmanagedMemoryStream.dll" />
+            </Component>
+            <Component Id="cmpC0FA693A1C79F59FC93C10CFD37D42F2" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil598A363D5498D9DDBAFE6880F82F75CA" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Linq.dll" />
+            </Component>
+            <Component Id="cmpE2761380A2AA89636D5B95A135451B7F" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil33155AE23C9BC1A3E340E9A8ABDE1D42" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Linq.Expressions.dll" />
+            </Component>
+            <Component Id="cmp1C1E90C62AB1B0C4B75A0C8670A93BF5" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil3F3DFA5907492425703385E53974B104" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Linq.Parallel.dll" />
+            </Component>
+            <Component Id="cmpA89B897A857FCF03B6B2373DF3AC3D44" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7169F7E92FBFDB99FD71D763F2E780C7" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Linq.Queryable.dll" />
+            </Component>
+            <Component Id="cmpBA5ABAFBBC1B2CC2232B3287ABE89965" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7D48B04FDEE4653060C375A94010A762" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Http.dll" />
+            </Component>
+            <Component Id="cmp8487DBCD10F6EA164525782F92DE4F4F" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil69D9F4812C174BFB653C73FDA9A444E0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.NameResolution.dll" />
+            </Component>
+            <Component Id="cmpA79F27EC312D0A6A5E914E2D5E6EAAFB" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC663E3CB9E88525B42D5B8916035A2EE" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.NetworkInformation.dll" />
+            </Component>
+            <Component Id="cmp8E66472F03923A37D938729AEED0ABF6" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8C39D1E2631D6844BB01F4F3D4309095" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Ping.dll" />
+            </Component>
+            <Component Id="cmp7F3C257977DAD545E41C24AEEBA5F3D7" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil9E23EE919E61291572A9E7A02358BE0B" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Primitives.dll" />
+            </Component>
+            <Component Id="cmp1F98307E0E8546CD03283A275A109E29" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filABF76F5E8887AC62C808D141EEE7F90D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Requests.dll" />
+            </Component>
+            <Component Id="cmp661DE9832C6188B3A05455224EB65C4A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil1D7AB309A4579D55C17E387F8DFFAE30" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Security.dll" />
+            </Component>
+            <Component Id="cmp35FB771C91E6D09AC7AD31EA6BD82D48" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil823B0C5D79C138C9B43DE503AE851AF3" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.Sockets.dll" />
+            </Component>
+            <Component Id="cmpBD3081A75FFFB18E0F831CA90BB02A51" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil56CADEAFFCFAFECB7B1BDB9CFD8987F1" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.WebHeaderCollection.dll" />
+            </Component>
+            <Component Id="cmp68954BEF36096052C3124B7F9EF02351" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filBE4907C935596CA9CAA2A7AA9AB25169" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.WebSockets.Client.dll" />
+            </Component>
+            <Component Id="cmpA3D72A47568CFB72A8579DA365A9694A" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil21106B04138595285E4063BA0375F731" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Net.WebSockets.dll" />
+            </Component>
+            <Component Id="cmpF02258D9C1CDC79ADE6BED7D7E27B7F8" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil9A7CC4FBC706133927299AE792CF930C" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ObjectModel.dll" />
+            </Component>
+            <Component Id="cmpA232CC5CBB9F7FC0C83CBF6E9889AEA2" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filA974C5A92C285D01E798C45F066066E6" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Reflection.dll" />
+            </Component>
+            <Component Id="cmpBBE9705F8359FDCA711FD64D14D92D29" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filBF34301359DFDB004DA5653ADCF77EA8" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Reflection.Extensions.dll" />
+            </Component>
+            <Component Id="cmp673F5FD19E1447A9E9517732D5099C50" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil8C7FE5693A485A6EC5DB4F983E211310" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Reflection.Primitives.dll" />
+            </Component>
+            <Component Id="cmp70FC17596CC6D6081664CEA3F1370618" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filA1280936EE48F816F9935AC5D8CC2135" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Resources.Reader.dll" />
+            </Component>
+            <Component Id="cmp0D6DF42F2B6440373438F26D08393D7E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil0A8B8FDA1F690B6521438D46937A3A6B" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Resources.ResourceManager.dll" />
+            </Component>
+            <Component Id="cmp9CA91C7958AD8878AF60199DC48CD573" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil230BE30D15C956EF11744774D5E2748A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Resources.Writer.dll" />
+            </Component>
+            <Component Id="cmpBC6ED153615307A014F39AD878C11A6F" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil06F091C33B00CEE32ABF1D23BFFCF153" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.CompilerServices.VisualC.dll" />
+            </Component>
+            <Component Id="cmp5535623A0957F12A580F2E0AE9AB7F24" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil1F7505072F9E81ACFDD7E6910787823E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.dll" />
+            </Component>
+            <Component Id="cmp1F804D02F421408F7E20267C22EA6672" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil46F95A243148C958E6F1AB4B4F561CB1" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Extensions.dll" />
+            </Component>
+            <Component Id="cmpC9E0DEEB7CF98154C06B2056C911EFFB" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7F78E91219FBF02ABACD6059011A3487" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Handles.dll" />
+            </Component>
+            <Component Id="cmpDD067213D9C6C74C7DEE2A7AAB0FAEEC" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil853E903EAF99997C9E803CAE3ACFBF5A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.InteropServices.dll" />
+            </Component>
+            <Component Id="cmp11FDD7837E3686618A8029176A611E38" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil43FDDFACC38DCF385E1070ABFC9FF8BD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.InteropServices.RuntimeInformation.dll" />
+            </Component>
+            <Component Id="cmpCCD6C0BE895B4EC8ED6FCEECB4A871C3" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil02EF2737879749E35F209C9B7DCA391D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Numerics.dll" />
+            </Component>
+            <Component Id="cmp41A90A30E3B6DE65B53B94DD925F5178" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC968DB2890AADD4FA67468C2A7B10151" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Serialization.Formatters.dll" />
+            </Component>
+            <Component Id="cmpD90C1CD2102284F981F3D046E35CA13E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filD0901858A2CBFDA1564A60620AE9B302" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Serialization.Json.dll" />
+            </Component>
+            <Component Id="cmp552DDD4A29039B8C3A99A908722A24F8" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil4EF07533CCADC5D11E070B55437037C4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Serialization.Primitives.dll" />
+            </Component>
+            <Component Id="cmp844E0AB3F4C9BC342C04985D37DDFEB2" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filEA5BDF8BC27AFF8E7E096CB7FADA4669" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Runtime.Serialization.Xml.dll" />
+            </Component>
+            <Component Id="cmp184FC0E5FAD15B9D8278A9A58F76ABE4" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filF9336650B5D207916A83BC080A440D23" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Claims.dll" />
+            </Component>
+            <Component Id="cmpFF30060800C65B79967082C32327291C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filAB211F3F0ECB04AF6C2378C73893A0C8" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Cryptography.Algorithms.dll" />
+            </Component>
+            <Component Id="cmp77638A88DFF018673C9539C4C63849F1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filA76FAFC53D43269049D637292976CF51" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Cryptography.Csp.dll" />
+            </Component>
+            <Component Id="cmp29603EF04B0BDD3AB6C82CAA97838E8B" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filED8707AB753EEF87C2288DCB64CF7A12" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Cryptography.Encoding.dll" />
+            </Component>
+            <Component Id="cmp0136E6693E0DF16DBA25B9082AEA0615" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil25474CD58A18AB4C2CD00F08A6BC9775" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Cryptography.Primitives.dll" />
+            </Component>
+            <Component Id="cmp5A1F20CF9AD2DA0DF26622F317779E8C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil442CB099348F299818A47DAF4107BAD6" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Cryptography.X509Certificates.dll" />
+            </Component>
+            <Component Id="cmp82F2DB94B35989B5500883F0A3BD8505" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filD2D8BE6ECEE6993CF4F1FF23EB2E93BB" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.Principal.dll" />
+            </Component>
+            <Component Id="cmp2A096C150C80DB6CCD87D4C38C958489" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filFB2A4DE274D08F22C08A1322C26E75AC" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Security.SecureString.dll" />
+            </Component>
+            <Component Id="cmp06F6E0D21752727B7ACAD0B512A6023D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil701E2765A9E92F8724B2DE3CCDB46360" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Text.Encoding.dll" />
+            </Component>
+            <Component Id="cmp3874A45D344B330AFBCC3A8F554FA9E4" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filCE8884160ED3E0EC381AFA6BE7E9D787" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Text.Encoding.Extensions.dll" />
+            </Component>
+            <Component Id="cmp0B61CF5FB51B4607DDD38343361694DD" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filDF47AF6394D3BCA07F18B1B1DED956F6" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Text.RegularExpressions.dll" />
+            </Component>
+            <Component Id="cmpC0197A786E74E0C6CC67B1F2BF47A69D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil36048FD39C076898D35F88983802BDEF" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.dll" />
+            </Component>
+            <Component Id="cmp1847EF90CD4FF710D3FD7F535A04B4FF" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE727C34A4C970EEE21C677C885EC28B8" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.Overlapped.dll" />
+            </Component>
+            <Component Id="cmp174FEA916F072AFEF2DC68827B08C208" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7F3C8D53605A91C20728F321E6100DC4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.Tasks.dll" />
+            </Component>
+            <Component Id="cmp9CBB1F7669BA2F45772EFFAF1C3C270D" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filFDA046DB7FA1CA15A62337B4F259E5FF" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.Tasks.Parallel.dll" />
+            </Component>
+            <Component Id="cmpFB7FE4390A8C062AD58E42F7C37E1CBA" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC3127284977EB9FDD14629243C84A2EE" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.Thread.dll" />
+            </Component>
+            <Component Id="cmp152A2FECC9863B1FFDB0C5513DC288DD" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil809F8EEF88425034C1A71DE3AD93D6A4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.ThreadPool.dll" />
+            </Component>
+            <Component Id="cmp6677FF43E08DCC24B1D67EBAA25DABE0" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil4E367B544B133435C24048994E32C006" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Threading.Timer.dll" />
+            </Component>
+            <Component Id="cmp3A99A623A71A716A198559E0C9D59400" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE6242AE03AF2509440ADF395C76688A4" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.ValueTuple.dll" />
+            </Component>
+            <Component Id="cmpD98009700F9DCCB585336348A2CEBE64" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil59BFCC2292F134CBDC4AA4926AAAB976" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.ReaderWriter.dll" />
+            </Component>
+            <Component Id="cmp93CA91D57F6251A2235F591E2C255B14" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filB8061B25037EA2CD370763F882C39C0A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.XDocument.dll" />
+            </Component>
+            <Component Id="cmp381A6662B7BE775E2AD4E35F205D99D1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filFFB639F3D3E0F93F264FDFE3E81A5A62" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.XmlDocument.dll" />
+            </Component>
+            <Component Id="cmp57336CA638C7E423596479419F1908F1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE7B8C062C7AE0B6604F0B9B573658E56" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.XmlSerializer.dll" />
+            </Component>
+            <Component Id="cmp8B647EE9E403FBA68E5A3BA65BF324DF" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil3D1A64312153AD0A9A7D324647F1DEFA" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.XPath.dll" />
+            </Component>
+            <Component Id="cmp74AD17100EF04DA9E0B6DB1AFA6D8D5C" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filB19DBCF818AC2F26DEA82AF27E664FD3" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\System.Xml.XPath.XDocument.dll" />
+            </Component>
+            <Component Id="cmp73C6877F774A61DB8035F23BD19DF1BF" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filC360A4C2E7604C6B60C3B95518BB0FA9" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\TagLibSharp.dll" />
+            </Component>
+            <Component Id="cmp42D2500C6028883536DC6CEC9A8140AD" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filE14545055986BE9974E7BED249AD208D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\TagLibSharp.pdb" />
+            </Component>
+            <Component Id="cmp89EA7098F24D720674EA8B5150EDAF31" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil3D8BFC480C4928712541A1D6496EC96F" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\TagLibSharp.xml" />
+            </Component>
+            <Component Id="cmp285038412CF08B5A8D6D38D37AC48402" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil9AC6C0AEAC30D4ABEE65C283123E9677" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Unosquare.Labs.EmbedIO.dll" />
+            </Component>
+            <Component Id="cmpE214F8F70742C4E282A23D2B8EEF5BF1" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="filCA70A8AD1A276C33EFB48467E10500FD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Unosquare.Labs.EmbedIO.xml" />
+            </Component>
+            <Component Id="cmpB453E80ED6DFA2E7EAE3D9CAC77A0F0E" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil120B00CEC21C2B45E8B16A46117B0C4E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Unosquare.Swan.Lite.dll" />
+            </Component>
+            <Component Id="cmp1281259AF712226F1725D409C9768337" Directory="INSTALLFOLDER" Guid="*">
+                <File Id="fil7C465BB332B3504695F8BC1EE7E88BD0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Unosquare.Swan.Lite.xml" />
+            </Component>
+            <Component Id="cmp85948D2F20AB3F9205C45B029637EB58" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil5F8D25CB632A7057C82F931BBDE7F5FC" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\pin_in.ico" />
+            </Component>
+            <Component Id="cmpFCD813D77221FAD9B0FD3665DCC47945" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filA45BCD54619A917A70746CBA3A2BDADD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\pin_out.ico" />
+            </Component>
+            <Component Id="cmpAE26C51DDF6A87F1E4AD7B66C0665FBB" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil6044FF3C6BB6B8BA5589F17FEB7792EB" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\readme.txt" />
+            </Component>
+            <Component Id="cmpDA54A18C1DD964BF510C7E0B4514D9C4" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil61E582EFFF26959BA733D8853C8224D2" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_2003.cat" />
+            </Component>
+            <Component Id="cmp7EE4DFD2EC1D431EFCAEBEC53AA0916B" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil5F5B8C94A656408FA30A0BC985543555" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_2003.sys" />
+            </Component>
+            <Component Id="cmp4BEF51CF5BCC2A5682B389604A4C0B2D" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil30E67288A01FB03A13AE05567E621D65" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_vista.cat" />
+            </Component>
+            <Component Id="cmpD82EBDE60F4F36D640990DBAAF5FFA53" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil1D7335FC9ECF0F25569926999F300010" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_vista.sys" />
+            </Component>
+            <Component Id="cmp14EEDC411A04F6C702BD65C1871E8A84" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil5A32F2ECA16E8CC35DC08499A86013D5" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_win7.cat" />
+            </Component>
+            <Component Id="cmpF4DE396BE4E257D2AD27C9C255297A20" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil2DC30ECA496040D3E3EC6F8F89D07372" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable64_win7.sys" />
+            </Component>
+            <Component Id="cmp8564510FE8346B389C64C8731F2FC8CF" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil405A0B4284B7A040989C687A3F528D64" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_2003.cat" />
+            </Component>
+            <Component Id="cmp2B386A7DF62BA0B95B2883AD98F92418" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filA7A115A4890D08907617281852B0B0BD" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_2003.sys" />
+            </Component>
+            <Component Id="cmpBFBE3E540FAFC15B640D10C297ACD78A" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filC971CA9A407FA6EED94DF3DEB1D93F7E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_vista.cat" />
+            </Component>
+            <Component Id="cmp1D3C15FD5C4E86C6F9EB379FDF83AB3B" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil8EF6530F1881C56D11B78BA11CCF1C0E" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_vista.sys" />
+            </Component>
+            <Component Id="cmp4AE3F66266726C79D029DF5B60A336AE" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil90E4474D60B03C5A7F8ADAF4847F1501" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_win7.cat" />
+            </Component>
+            <Component Id="cmp0289375EA5EE6E54CBFCA9BB050ACFE0" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil8799BDA9D6C86A692BA44796F6DDF31D" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_win7.sys" />
+            </Component>
+            <Component Id="cmp1591F791848B7E7C420729A9D17C20F3" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil73C4DC9E158A65D3B92A17F4FA354A05" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_xp.cat" />
+            </Component>
+            <Component Id="cmpFD6EC724335BC42FD0D65FDF5572F134" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filA042AB45D007AB5C0D6B98A5BBD5279A" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbaudio_cable_xp.sys" />
+            </Component>
+            <Component Id="cmpB5419A9EA21A374B124389F119C18D45" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil600FBF47AA074614599E8118A7C8A1EF" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\VBCABLE_ControlPanel.exe" />
+            </Component>
+            <Component Id="cmp8A8F07E4D2387274E32F4431B70D7976" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil13A28AE6880A6B804BD210976F039A0C" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\VBCABLE_Setup.exe" />
+            </Component>
+            <Component Id="cmpA093235B89F650B36ED3E95E70A9F772" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil41B0AFF5CCC97E45EF0BEA760D142318" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\VBCABLE_Setup_x64.exe" />
+            </Component>
+            <Component Id="cmpD2D05FBAFF2D73BE04E04E58BF72CDDF" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil2BA2EA90DB928134122380AE00F66F57" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable64_2003.inf" />
+            </Component>
+            <Component Id="cmp26587829150A375F822A5DCFF2AF9F73" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filB2B7EBF18EB13D782F664542BFB0F3D8" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable64_vista.inf" />
+            </Component>
+            <Component Id="cmp73585B29400BCD070926535B1EA54ABF" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil902C008692517001D79BAF3144410540" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable64_win7.inf" />
+            </Component>
+            <Component Id="cmpD21A4CC1342DD2653E539BB88EC50FCC" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil6762C91DE53CA615D0DB0819A7E631D0" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable_2003.inf" />
+            </Component>
+            <Component Id="cmp85D8A3CBEA9F78146BB2DC4120DEC439" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filCAA05910C1A11012894BF64D212B3941" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable_vista.inf" />
+            </Component>
+            <Component Id="cmp3D2958198117B39EA8FC47D5A53F42A7" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="filB9CB737D5180043CA150674F48BCF795" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable_win7.inf" />
+            </Component>
+            <Component Id="cmp2C3D3760AEDEEF2213810CC321662BDF" Directory="dir42118B94695D63E37FC8B08295C74D47" Guid="*">
+                <File Id="fil2F482965389DA140445CD1F6F63CA197" KeyPath="yes" Source="$(var.EspionSpotify.TargetDir)\Drivers\vbMmeCable_xp.inf" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>
